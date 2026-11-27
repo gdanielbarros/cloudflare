@@ -49,7 +49,7 @@ export const CONFIG = {
     }
   ],
 
-  // Apresentação da Equipe (Exclusivamente os 4 integrantes autorizados)
+  // Apresentação da Equipe (Exclusivamente os integrantes autorizados)
   team: [
     {
       id: "daniel-alves",
@@ -58,16 +58,18 @@ export const CONFIG = {
       department: "Engenharia de Software",
       initials: "DB",
       image: "assets/images/team/Daniel.jpg",
-      tag: "Software Engineering"
+      tag: "Software Engineering",
+      linkedin: "https://www.linkedin.com/in/danlog8"
     },
     {
       id: "maria-clara",
-      name: "Maria Clara",
+      name: "Maria Clara Almeida",
       role: "Economista / Desenvolvedora",
       department: "Economia & Desenvolvimento",
       initials: "MC",
       image: "assets/images/team/Clara.jpeg",
-      tag: "Economics & Tech"
+      tag: "Economics & Tech",
+      linkedin: "https://www.linkedin.com/in/maria-clara-almeida-95a2323a8"
     },
     {
       id: "risya-vitoria",
@@ -76,7 +78,8 @@ export const CONFIG = {
       department: "Operações & Tecnologia",
       initials: "RV",
       image: "assets/images/team/Risya.jpeg",
-      tag: "Technical Specialist"
+      tag: "Technical Specialist",
+      linkedin: "https://www.linkedin.com/in/risya-vitoria-8264092ba"
     },
     {
       id: "dayanne-regina",
@@ -85,7 +88,18 @@ export const CONFIG = {
       department: "Pessoas & Cultura",
       initials: "DR",
       image: "assets/images/team/Dayanne.jpeg",
-      tag: "People & Culture"
+      tag: "People & Culture",
+      linkedin: "https://www.linkedin.com/in/dayannelenise"
+    },
+    {
+      id: "nelson-fernandes",
+      name: "Nelson Fernandes",
+      role: "Doutor em Administração",
+      department: "Administração & Estratégia",
+      initials: "NF",
+      image: "assets/images/team/Nelson Fernandes.png",
+      tag: "PhD Administration",
+      linkedin: "https://www.linkedin.com/in/nelson-fernandes-63a4b42b"
     }
   ],
 

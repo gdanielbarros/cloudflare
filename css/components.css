@@ -314,3 +314,39 @@
   box-shadow: var(--shadow-glow);
   transform: translateY(-3px);
 }
+
+/* ==========================================================================
+   Ícones de Rede Social da Equipe
+   ========================================================================== */
+.member-linkedin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  margin-top: var(--space-sm);
+  border-radius: var(--radius-sm);
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  transition: background-color var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast), transform var(--transition-fast);
+}
+
+.member-linkedin:hover {
+  background-color: #0A66C2;
+  border-color: #0A66C2;
+  color: #FFFFFF;
+  transform: translateY(-2px);
+}
+
+.member-linkedin-icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+  transition: transform var(--transition-fast), filter var(--transition-fast);
+}
+
+.member-linkedin:hover .member-linkedin-icon {
+  transform: scale(1.1);
+  filter: brightness(0) invert(1);
+}
